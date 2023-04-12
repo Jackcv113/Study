@@ -10,7 +10,7 @@ public class Test {
     public static void main(String[] args) {
         Student stu1 = new Student("张三", 18);
         System.out.println(stu1);
-        String ss = "abc";
-        System.out.println(ss);
+        String str = "abc";
+        System.out.println(str);
     }
 }
