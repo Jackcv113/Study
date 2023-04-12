@@ -8,6 +8,7 @@ package com.zjhao.Demo01_Static;
  */
 public class Test {
     public static void main(String[] args) {
+        //求创建了多少对象
         User user1 = new User();
         User user2 = new User();
         User user3 = new User();

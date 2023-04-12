@@ -7,6 +7,7 @@ package com.zjhao.Demo01_Static;
  * TIME:9:12
  */
 public class User {
+    //类变量，被所有对象共享
     static int count;
 
     public User() {
