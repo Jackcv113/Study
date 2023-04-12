@@ -16,4 +16,5 @@ public class Teacher extends People {
     public void setSkill(String skill) {
         this.skill = skill;
     }
+
 }

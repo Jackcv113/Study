@@ -24,4 +24,5 @@ public class People {
     public void setName(String name) {
         this.name = name;
     }
+
 }

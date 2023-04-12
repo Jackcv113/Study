@@ -18,4 +18,5 @@ public class Test {
         stu.setSubjects("学Java");
         System.out.println(stu.getName() + stu.getSubjects());
     }
+
 }

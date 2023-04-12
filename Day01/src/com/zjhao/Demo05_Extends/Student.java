@@ -16,4 +16,5 @@ public class Student extends People {
     public void setSubjects(String subjects) {
         this.subjects = subjects;
     }
+
 }
