@@ -6,8 +6,8 @@ package com.zjhao.Demo02_Static;
  * Date:2023-04-12
  * TIME:10:00
  */
-public class Sum {
-    private Sum() {
+public class SumUtil {
+    private SumUtil() {
     }
 
     public static int sum(int a, int b) {
