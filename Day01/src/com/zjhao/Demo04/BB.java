@@ -1,7 +1,7 @@
 package com.zjhao.Demo04;
 
 /**
- * Description:饿汉式：拿对象时，对象已经创建好了
+ * Description:懒汉式
  * User:ZJHao
  * Date:2023-04-12
  * TIME:12:14
