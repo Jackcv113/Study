@@ -15,7 +15,7 @@ public class Test {
             ElectricAlarmDoor d = (ElectricAlarmDoor) door;
             d.setWidth(2.1);
             d.setHeight(3.2);
-            d.setBrand("牛逼");
+            d.setBrand("牛逼电子门");
         } else if (door instanceof WoodDoor) {
             WoodDoor d = (WoodDoor) door;
             d.setWidth(2.1);
