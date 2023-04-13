@@ -1,6 +1,4 @@
-package com.zjhao.Play_Demo01;
-
-import javax.swing.*;
+package com.zjhao.Demo01_Play;
 
 /**
  * Description:
