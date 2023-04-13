@@ -11,6 +11,7 @@ import java.util.ArrayList;
 public interface StudentOp {
     //打印全部学生信息
     void printAllStudent(ArrayList<Student> list);
+
     //打印平均分
     void printAvgStudent(ArrayList<Student> list);
 }

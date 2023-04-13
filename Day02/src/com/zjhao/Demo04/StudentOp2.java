@@ -8,7 +8,7 @@ import java.util.ArrayList;
  * Date:2023-04-13
  * TIME:16:36
  */
-public class StudentOp2 implements StudentOp{
+public class StudentOp2 implements StudentOp {
     @Override
     public void printAllStudent(ArrayList<Student> list) {
         for (int i = 0; i < list.size(); i++) {
