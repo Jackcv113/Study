@@ -1,7 +1,7 @@
 package com.zjhao.Demo04;
 
 /**
- * Description:学生实现类
+ * Description:学生JavaBean
  * User:ZJHao
  * Date:2023-04-13
  * TIME:16:34
