@@ -21,12 +21,12 @@ public class ElectricAlarmDoor extends Door implements Alarm {
     @Override
     public void open() {
         login();
-        System.out.println("您成功打开了宽为" + getWidth() + "米，高为" + getHeight() +"米的"+ getBrand() + "牌的门");
+        System.out.println("您成功打开了宽为" + getWidth() + "米，高为" + getHeight() + "米的" + getBrand() + "牌的电子门");
     }
 
     @Override
     public void close() {
-        System.out.println("您成功关闭了宽为" + getWidth() + "米，高为" + getHeight() +"米的"+ getBrand() + "牌的门");
+        System.out.println("您成功关闭了宽为" + getWidth() + "米，高为" + getHeight() + "米的" + getBrand() + "牌的电子门");
 
     }
 
@@ -34,7 +34,7 @@ public class ElectricAlarmDoor extends Door implements Alarm {
     public void login() {
         for (int i = 2; i >= 0; i--) {
             System.out.println("请输入密码");
-            if ("123".equals(sc.next())){
+            if ("123".equals(sc.next())) {
                 return;
             }
             System.out.println("密码错误，您当前还有" + i + "次机会");

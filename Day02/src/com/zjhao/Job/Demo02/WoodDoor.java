@@ -19,12 +19,12 @@ public class WoodDoor extends Door {
 
     @Override
     public void open() {
-        System.out.println("您成功打开了宽为" + getWidth() + "米，高为" + getHeight() +"米的"+ getBrand() + "牌门");
+        System.out.println("您成功打开了宽为" + getWidth() + "米，高为" + getHeight() + "米的" + getBrand() + "牌木门");
     }
 
     @Override
     public void close() {
-        System.out.println("您成功关闭了宽为" + getWidth() + "米，高为" + getHeight() +"米的"+ getBrand() + "牌门");
+        System.out.println("您成功关闭了宽为" + getWidth() + "米，高为" + getHeight() + "米的" + getBrand() + "牌木门");
     }
 
 }
