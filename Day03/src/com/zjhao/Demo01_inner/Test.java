@@ -16,7 +16,14 @@ public class Test {
         goSwim(new Swimming() {
             @Override
             public void Swim() {
-                System.out.println("李海瑞蛙泳+狗刨式");
+                System.out.println("李海瑞蛙泳+狗刨式游泳");
+            }
+        });
+
+        goSwim(new Swimming() {
+            @Override
+            public void Swim() {
+                System.out.println("赵佳豪水上健步如飞");
             }
         });
     }
