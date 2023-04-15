@@ -1,13 +1,18 @@
 package com.zjhao.Demo01_inner;
 
 /**
- * Description:
+ * Description:测试类
  * User:ZJHao
  * Date:2023-04-15
  * TIME:10:32
  */
 public class Test {
     public static void main(String[] args) {
+        /*
+            做了两件事：
+                1.相当于定义一个子类\实现类
+                2.立即再创建出该子类\实现类的对象
+         */
         goSwim(new Swimming() {
             @Override
             public void Swim() {

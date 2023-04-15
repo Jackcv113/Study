@@ -1,7 +1,7 @@
 package com.zjhao.Demo01_inner;
 
 /**
- * Description:
+ * Description:接口
  * User:ZJHao
  * Date:2023-04-15
  * TIME:10:33
